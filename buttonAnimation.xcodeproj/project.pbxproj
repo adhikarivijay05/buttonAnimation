@@ -14,6 +14,7 @@
 		08C00DA71F04FCE000A07954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C00DA51F04FCE000A07954 /* LaunchScreen.storyboard */; };
 		08C00DB21F04FCE000A07954 /* buttonAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C00DB11F04FCE000A07954 /* buttonAnimationTests.swift */; };
 		08C00DBD1F04FCE000A07954 /* buttonAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C00DBC1F04FCE000A07954 /* buttonAnimationUITests.swift */; };
+		08C00DCB1F04FFE000A07954 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C00DCA1F04FFE000A07954 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		08C00DB81F04FCE000A07954 /* buttonAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C00DBC1F04FCE000A07954 /* buttonAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonAnimationUITests.swift; sourceTree = "<group>"; };
 		08C00DBE1F04FCE000A07954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C00DCA1F04FFE000A07954 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				08C00DA31F04FCE000A07954 /* Assets.xcassets */,
 				08C00DA51F04FCE000A07954 /* LaunchScreen.storyboard */,
 				08C00DA81F04FCE000A07954 /* Info.plist */,
+				08C00DCA1F04FFE000A07954 /* UIButtonExtension.swift */,
 			);
 			path = buttonAnimation;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				08C00D9F1F04FCE000A07954 /* ViewController.swift in Sources */,
 				08C00D9D1F04FCE000A07954 /* AppDelegate.swift in Sources */,
+				08C00DCB1F04FFE000A07954 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
